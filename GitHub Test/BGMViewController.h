@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface BGMViewController : UIViewController
-
+@property NSString* name;
 @end
