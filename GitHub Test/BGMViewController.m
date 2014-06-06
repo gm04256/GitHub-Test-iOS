@@ -8,6 +8,8 @@
 
 #import "BGMViewController.h"
 
+#import "BGMObject.h"
+
 @interface BGMViewController ()
 
 @end
@@ -18,6 +20,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	BGMObject* obj1 = [[BGMObject alloc] init];
+	BGMObject* obj2 = [[BGMObject alloc] init];
+	
+	[obj1 setC:30];
+	[obj2 setD:40];
+	NSLog(@"c: %d, d: %d", [obj2 getC], [obj1 getD]);
+	
+	[BGMObject init];
+
+	
+
 }
 
 - (void)didReceiveMemoryWarning
