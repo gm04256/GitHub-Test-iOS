@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC54C5041941591500EFBBFA /* BGMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC54C5031941591500EFBBFA /* BGMObject.m */; };
 		FCCD95501940055F00B5CA50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCD954F1940055F00B5CA50 /* Foundation.framework */; };
 		FCCD95521940055F00B5CA50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCD95511940055F00B5CA50 /* CoreGraphics.framework */; };
 		FCCD95541940055F00B5CA50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCD95531940055F00B5CA50 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC54C5021941591500EFBBFA /* BGMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMObject.h; sourceTree = "<group>"; };
+		FC54C5031941591500EFBBFA /* BGMObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMObject.m; sourceTree = "<group>"; };
 		FCCD954C1940055F00B5CA50 /* GitHub Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCD954F1940055F00B5CA50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCCD95511940055F00B5CA50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				FCCD95651940055F00B5CA50 /* BGMViewController.m */,
 				FCCD95671940055F00B5CA50 /* Images.xcassets */,
 				FCCD95561940055F00B5CA50 /* Supporting Files */,
+				FC54C5021941591500EFBBFA /* BGMObject.h */,
+				FC54C5031941591500EFBBFA /* BGMObject.m */,
 			);
 			path = "GitHub Test";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				FCCD955C1940055F00B5CA50 /* main.m in Sources */,
 				FCCD95601940055F00B5CA50 /* BGMAppDelegate.m in Sources */,
 				FCCD95661940055F00B5CA50 /* BGMViewController.m in Sources */,
+				FC54C5041941591500EFBBFA /* BGMObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				FCCD95801940055F00B5CA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCCD95811940055F00B5CA50 /* Build configuration list for PBXNativeTarget "GitHub TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				FCCD95831940055F00B5CA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
